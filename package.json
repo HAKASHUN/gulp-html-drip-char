@@ -1,0 +1,32 @@
+{
+  "name": "gulp-html-drip-char",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HAKASHUN/gulp-html-drip-char.git"
+  },
+  "author": "HAKASHUN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HAKASHUN/gulp-html-drip-char/issues"
+  },
+  "homepage": "https://github.com/HAKASHUN/gulp-html-drip-char#readme",
+  "dependencies": {
+    "gulp": "*",
+    "buffer": "^4.5.0",
+    "gulp-util": "^3.0.7",
+    "through": "^2.3.8",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.3.4",
+    "html-drip-char": "git://github.com/HAKASHUN/html-drip-char.git"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  }
+}
