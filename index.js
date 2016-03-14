@@ -21,7 +21,7 @@ module.exports = function(){
 	}
 
 	function endStream(){
-		if (buffer.length === 0) return this.emit('end');
+		if (characters.length === 0) return this.emit('end');
 		var results = _.flatten(characters).join('');
 		var uniqueCharacters = _.uniq(_s.chop(results, 1)).join('');
 		var joinedContents = new Buffer(uniqueCharacters);
